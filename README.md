@@ -108,10 +108,9 @@ Users can now hotswap between Apple and Windows based keyboards without having t
 
 ## How to install (Linux)
 
-1. clone this repo
+1. Clone this repo
 ```
 git clone https://github.com/rbreaves/kinto.git
-cd kinto
 ```
 2. Install python3 (If needed)
 
@@ -120,8 +119,15 @@ Debian or Ubuntu 16.04 or 18.04
 sudo apt update
 sudo apt install python3
 ```
-
-3. Follow the prompts and the script will guide you through the rest of the setup.
+3. Give permission that make it executable (If needed)
+```
+sudo chmod +x kinto/
+```
+4. Open directory
+```
+cd kinto
+```
+4. Follow the prompts and the script will guide you through the rest of the setup.
 ```
 ./setup.py
 ```
